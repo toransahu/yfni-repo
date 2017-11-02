@@ -1,0 +1,14 @@
+Q1. Smallest Number from a string of numbers by swaping at most one pair of numbers.
+Rules:
+  1. Can swap only once
+  2. No leading zeros in input, so should not be in output also.
+
+e.g.
+
+INPUT:
+
+9 6 2 3 5 6
+
+OUTPUT
+
+2 6 9 3 5 6

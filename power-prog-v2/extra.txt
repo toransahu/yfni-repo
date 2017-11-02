@@ -1,0 +1,38 @@
+Input : Standard Input
+Output : Standard Output
+
+Time Limit : 1 sec
+
+It is an interesting problem to count the number of unordered partitions of a number N. This is generally done by putting N non-negative numbers in non-increasing order along a 1xN board, which sum to N.
+
+In this problem however, you are given a 2xN board. You need to fill in non-negative numbers in this board in such a way, that
+(1) The sum of all the numbers filled = N
+
+(2) Each of the 2 rows consist of numbers in non-increasing order
+
+(3) Each of the N columns consist of numbers in non-increasing order.
+
+In how many ways can this be done, given the number N? Two ways are considered different if there is a cell in the board which has different numbers.
+
+Input:
+
+The first line consists of the number of testcases T. Each testcase consists of a single integer N.
+
+Output:
+
+For each testcase, output a single line, giving the number of ways.
+
+Constraints:
+
+T <= 10
+N <= 70
+
+The answer will fit in a 64 bit signed integer .
+
+Sample Input:
+
+1 5
+
+Sample Output:
+
+16

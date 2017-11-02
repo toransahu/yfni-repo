@@ -1,0 +1,17 @@
+Instructions
+
+You have to carry 3 things Voucher Id , MS ID, Identity Proofs to the venue. 
+
+Voucher Id: Can be checked at http://10.81.60.16/Home.aspx 
+Voucher Id :   MSMS8D051B05  
+
+Identity Proofs: The examinee must present two forms of ID in order to test. One form of non-expired, government-issued, photo and signature-bearing ID and second form of signature-bearing ID. 
+• Acceptable forms of primary ID are limited to: 1) Driver’s License. 2) State or Government –Issued ID (Example: Aadhaar Card / Election Card) 3) Passport • Acceptable forms of signature ID. 1) Employee ID. 
+MSID: Please note that you need to create Microsoft ID before coming for the exam. If you already have one MS Id you can use the same. The steps for creating MS ID are repeated below: 
+• A profile on Microsoft Learning web site. 
+• On the Microsoft Learning web site, in the upper right corner, click Sign in. 
+• Sign in using your Microsoft account. 
+• In the upper right corner, click Account, and then click Profile Settings. 
+• Create, edit, or verify your profile, and then click Save. 
+• Once you complete above procedure, you will able to see your MS ID(eg:-MS__________). 
+• Kindly note it down & carry with you while coming for the exam

@@ -1,0 +1,44 @@
+/* Formatted on 10/17/2017 1:39:02 PM (QP5 v5.240.12305.39446) */
+  SELECT PART_NO,
+         REVISION,
+         (SELECT DESCRIPTION
+            FROM SECTION
+           WHERE SECTION_ID = M.SECTION_ID)
+            SECTION,
+         (SELECT DESCRIPTION
+            FROM SUB_SECTION
+           WHERE SUB_SECTION_ID = M.SUB_SECTION_ID)
+            SUB_SECTION,
+         (SELECT DESCRIPTION
+            FROM PROPERTY_GROUP
+           WHERE PROPERTY_GROUP = M.PROPERTY_GROUP)
+            PROPERTY_GROUP,
+         (SELECT DESCRIPTION
+            FROM PROPERTY
+           WHERE PROPERTY = M.PROPERTY)
+            PROPERTY,
+         (SELECT DESCRIPTION
+            FROM ATTRIBUTE
+           WHERE ATTRIBUTE = M.ATTRIBUTE)
+            ATTRIBUTE,
+         (SELECT DESCRIPTION
+            FROM HEADER
+           WHERE HEADER_ID = M.HEADER_ID)
+            HEADER,
+         VALUE,
+         M.SECTION_ID,
+         M.SUB_SECTION_ID,
+         M.PROPERTY_GROUP PROPERTY_GROUP_ID,
+         M.PROPERTY PROPERTY_ID,
+         M.ATTRIBUTE ATTRIBUTE_ID,
+         M.HEADER_ID
+    FROM INTERSPC.BEGA_SPECDATA M
+   WHERE VALUE IS NOT NULL
+ORDER BY 1,
+         2,
+         3,
+         4,
+         5,
+         6,
+         7,
+         8

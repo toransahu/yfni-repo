@@ -1,0 +1,23 @@
+Q2: Longest consecutive sequence from an un-ordered array.
+Rules:
+    1. seq will have + integers including 0
+    2. you can flip 0's to any required number in order to make a seq
+    3. return length of longest consecutive seq
+
+e.g.
+
+INPUT:
+
+0 6 5 0 3 10 11
+
+OUTPUT
+
+5
+
+EXPLAINATION:
+
+0 => 7
+6
+5
+0 => 4
+3

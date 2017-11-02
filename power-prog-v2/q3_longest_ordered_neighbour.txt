@@ -1,0 +1,33 @@
+Q3: Longest ordered neighbour
+Rules:
+    There are houses rectangular grid pattern in a city
+    1. neighbour:  two house with shared boundry
+    2. ordered neighbour: neighbours houses of altenate colours
+    3. houses with 0's are Yellow and 1's are Red
+    3. return number of houses in longest ordered neighbour
+
+e.g.
+
+INPUT:
+
+matrix/grid size
+
+n,m
+
+1st line of n
+2nd line of n
+.
+.
+nth line of n
+i.e.
+
+3,4
+0 0 1 0
+0 1 0 0
+1 0 0 0
+1 0 0 0
+
+OUTPUT:
+
+3 houses in longest ordered neighbour
+i.e. house at co-ordinates: {(0,1), (1,1), (2,1)}, {(0,1), (0,2), (0,3)}, & {(1,0), (1,1), (1,2)}
